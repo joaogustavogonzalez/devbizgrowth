@@ -1,11 +1,10 @@
-var express = require ('express');
+var express = require('express');
 var app = express();
 
-app.set ('view engine', 'ejs');
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
 
-app.set( 'port', ( process.env.PORT || 5000 ));
-
-// Start node server
-app.listen( app.get( 'port' ), function() {
-  console.log( 'Node server is running on port ' + app.get( 'port' ));
-  });
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
