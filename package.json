@@ -1,0 +1,22 @@
+{
+  "name": "curso_node",
+  "version": "1.0.0",
+  "description": "curso nodejs",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogustavogonzalez/devbizgrowth.git"
+  },
+  "author": "João Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaogustavogonzalez/devbizgrowth/issues"
+  },
+  "homepage": "https://github.com/joaogustavogonzalez/devbizgrowth#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
